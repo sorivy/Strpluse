@@ -1,0 +1,17 @@
+def calculate_average(numbers):
+    if not numbers:
+        return None  # To prevent division by zero in case the list is empty
+    
+    total = sum(numbers)
+    average = total / len(numbers)
+    
+    return average
+
+# Example usage
+numbers_list = [10, 20, 30, 40, 50]
+result = calculate_average(numbers_list)
+
+if result is not None:
+    print(f"The average of numbers in the list: {result}")
+else:
+    print("The list is empty.")
