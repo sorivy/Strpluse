@@ -8,7 +8,7 @@ def calculate_average(numbers):
     return average
 
 # Example usage
-numbers_list = [10, 20, 30, 40, 50]
+numbers_list = [4, 20, 30, 40, 50]
 result = calculate_average(numbers_list)
 
 if result is not None:
