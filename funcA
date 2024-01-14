@@ -15,3 +15,4 @@ if result is not None:
     print(f"The average of numbers in the list: {result}")
 else:
     print("The list is empty.")
+End
