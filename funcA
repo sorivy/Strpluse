@@ -1,7 +1,8 @@
 def calculate_average(numbers):
     if not numbers:
         return None  # To prevent division by zero in case the list is empty
-    
+
+    #kavir
     total = sum(numbers)
     average = total / len(numbers)
     
