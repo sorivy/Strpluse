@@ -8,6 +8,7 @@ def calculate_average(numbers):
     
     return average
 
+# Hi
 # Example usage
 numbers_list = [4, 20, 30, 40, 50]
 result = calculate_average(numbers_list)
