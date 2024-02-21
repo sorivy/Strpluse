@@ -1,4 +1,4 @@
-# Ddddef f
+# Ddddetf f
 calculate_average(numbers):
     if not numbers:
         return None  # To prevent division by zero in case the list is empty
